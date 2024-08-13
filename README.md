@@ -24,3 +24,14 @@ MultiBot! is a Discord bot created with Python using the discord.py library. It 
     <li>...and much more!</li>
 </ul>
 
+<h2>Required Downloads</h2>
+In terminal / command type: pip install discord.py python-dotenv yt-dlp requests
+
+<ul>
+    <li>discord.py</li>
+    <li>python-dotenv</li>
+    <li>yt-dlp</li>
+    <li>requests</li>
+</ul>
+
+*NOTE: apikeys.py was not included in files as it contains the confidential token
