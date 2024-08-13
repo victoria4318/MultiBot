@@ -14,8 +14,6 @@ client = commands.Bot(command_prefix='!', intents=intents)
 async def on_ready(): # not shown to user just tells creator that bot is ready and loaded to use
     # bot status
     await client.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.listening, name='Signal'))
-    # await client.change_presence(status=discord.Status.idle, activity=discord.Game('Valorant))
-    # await client.change_presence(status=discord.Status.idle, activity=discord.Streaming(name='Minecraft', url="link"))
 
     print("The bot is now ready for use!")
     print("-----------------------------")
